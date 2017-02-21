@@ -53,7 +53,7 @@ object Publish extends Build {
   lazy val creds = Seq(credentials += resolvedCredentials)
 
   override lazy val settings = creds ++ Seq(
-    organizationName := "DataStax",
+    organizationName := "com.datastax.spark",
     organizationHomepage := Some(url("http://www.datastax.com/")),
 
     publishTo <<= version { v: String =>
