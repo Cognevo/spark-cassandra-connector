@@ -76,7 +76,7 @@ object Publish extends Build {
           <id>pkolaczk</id>
           <name>Piotr Kolaczkowski</name>
           <url>http://github.com/pkolaczk</url>
-          <organization>DataStax</organization>
+          <organization>com.datastax.spark</organization>
           <organizationUrl>http://www.datastax.com/</organizationUrl>
         </developer>
         <developer>
